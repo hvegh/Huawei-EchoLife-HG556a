@@ -33,7 +33,7 @@ LIBS1 =
 
 # You will need to use a ANSI C compiler. This means under SunOS 4 you can't 
 # use cc, instead you will have to use gcc. 
-CC = /opt/toolchains/uclibc-crosstools/bin/mips-linux-gcc
+CC = mips-linux-gcc
 
 # This may help with some versions of make
 SHELL = /bin/sh
@@ -663,7 +663,7 @@ INCLUDES1 = $(srcdir)version.h $(srcdir)local.h $(srcdir)includes.h $(srcdir)smb
 INCLUDES2 = $(srcdir)trans2.h 
 INCLUDES = $(INCLUDES1) $(INCLUDES2)
 
-# HG556A samba 匿名登陆, 不需要smbpasswd,nmbd
+# HG556A samba 脛盲脙没碌脟脗陆, 虏禄脨猫脪陋smbpasswd,nmbd
 #INSTALLPROGS = smbd nmbd smbpasswd
 INSTALLPROGS = smbd
 
